@@ -1,0 +1,16 @@
+{
+  "name": "mononpm",
+  "version": "0.0.1",
+  "description": "npm for monorepo",
+  "main": "mononpm.js",
+  "repository": "git@github.com:ivomi/mononpm.git",
+  "author": "Ivo Michalik <michalik.ivo@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "mononpm": "./mononpm.js"
+  },
+  "dependencies": {
+    "copy-dir": "1.3.0",
+    "glob": "7.1.6"
+  }
+}
